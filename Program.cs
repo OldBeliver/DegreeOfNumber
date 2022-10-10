@@ -24,7 +24,7 @@ namespace DegreeOfNumber
                 calculatedValue *= degree;
             }
             
-            Console.WriteLine($"{randomValue} < {calculatedValue}, где {calculatedValue} = 2 в степени {countDegree}");
+            Console.WriteLine($"{randomValue} < {calculatedValue}, где {calculatedValue} = {degree} в степени {countDegree}");
         }
     }
 }
